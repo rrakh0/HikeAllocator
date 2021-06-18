@@ -1,0 +1,17 @@
+{
+    "durationDays": 2,
+    "participants": [
+        {
+            "name": "Участник #1",
+            "carryingCoefficient": 1
+        }
+    ],
+    "items": [
+        {
+            "key": "Палатка",
+            "weight": 3,
+            "durationDays": 1,
+            "consumptionType": "Fixed"
+        }
+    ]
+}

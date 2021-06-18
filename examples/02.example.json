@@ -1,0 +1,57 @@
+{
+    "durationDays": 2,
+    "participants": [
+        {
+            "name": "Участник #1",
+            "carryingCoefficient": 1
+        },
+        {
+            "name": "Участник #2",
+            "carryingCoefficient": 1
+        }
+    ],
+    "items": [
+        {
+            "key": "Палатка",
+            "weight": 3,
+            "durationDays": 2,
+            "consumptionType": "Fixed"
+        },
+        {
+            "key": "Топор",
+            "weight": 2,
+            "durationDays": 2,
+            "consumptionType": "Fixed"
+        },
+        {
+            "key": "Сахар",
+            "weight": 0.8,
+            "durationDays": 2,
+            "consumptionType": "Linear"
+        },
+        {
+            "key": "Еда 1-1",
+            "weight": 1,
+            "durationDays": 0,
+            "consumptionType": "Fixed"
+        },
+        {
+            "key": "Еда 1-2",
+            "weight": 1.5,
+            "durationDays": 1,
+            "consumptionType": "Fixed"
+        },
+        {
+            "key": "Еда 2-1",
+            "weight": 1,
+            "durationDays": 1,
+            "consumptionType": "Fixed"
+        },
+        {
+            "key": "Еда 2-2",
+            "weight": 1.5,
+            "durationDays": 2,
+            "consumptionType": "Fixed"
+        }
+    ]
+}
