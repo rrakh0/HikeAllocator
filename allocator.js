@@ -1,16 +1,13 @@
 let example = require('./examples/05.example.json');
+let { sum, copy, deepCopy, sort } = require('./utils.js')();
 
 const allocate = (hikeData) => {
 
     let items = deepCopy(hikeData.items || []);
     let participants = deepCopy(hikeData.participants || [])
 
-    for (let item of items) {
-        item.work = calcWork(item);
-    }
-
+    items.forEach(item => item.work = calcWork(item));
     sort(items, (item) => item.work);
-
     calcExpectedWork(participants, items)
 
     return allocateInternal(participants, items, items.length - 1);
@@ -51,10 +48,6 @@ const allocateInternal = (participants, items, index) => {
     return allocations;
 };
 
-const getEquipmentCount = (items) => {
-    return items.filter(i => i.type == 'Equipment').length;
-}
-
 const calcExpectedWork = (participants, items) => {
 
     let totalWork = sum(items, (item) => item.work);
@@ -76,20 +69,7 @@ const calcWork = (item) => {
         }
     }
     throw new Error(`${item.consumptionType} is not supported`);
-}
-
-const calcMetrics = (allocations) => {
-
-    for (let alloc of allocations) {
-        alloc.actualWork = sum(alloc.items, i => i.work).toFixed(1);
-        alloc.diffPct = (100 * (alloc.participant.expectedWork - alloc.actualWork) / alloc.participant.expectedWork).toFixed(2);
-        alloc.diff = (alloc.participant.expectedWork - alloc.actualWork).toFixed(1);
-
-        alloc.weight = sum(alloc.items, i => i.weight).toFixed(1);
-
-        sort(alloc.items, (item) => -item.durationDays)
-    }
-}
+};
 
 const calcTotalDiff = (allocations) => {
 
@@ -100,31 +80,37 @@ const calcTotalDiff = (allocations) => {
     }
 
     return result;
+};
+
+const calcMetrics = (allocations) => {
+
+    for (let alloc of allocations) {
+        alloc.actualWork = sum(alloc.items, i => i.work).toFixed(1);
+        alloc.diffPct = (100 * (alloc.participant.expectedWork - alloc.actualWork) / alloc.participant.expectedWork).toFixed(2);
+        alloc.diff = (alloc.participant.expectedWork - alloc.actualWork).toFixed(1);
+        alloc.weight = sum(alloc.items, i => i.weight).toFixed(1);
+
+        
+    }
+};
+
+const sortItems = (allocations) => {
+
+    for (let alloc of allocations) {
+        sort(alloc.items, (item) => -item.durationDays)
+    }
+};
+
+const getEquipmentCount = (items) => {
+    return items.filter(i => i.type == 'Equipment').length;
 }
-
-const sum = (items, f) => {
-    return items.reduce(function (a, b) {
-        return a + f(b);
-    }, 0);
-};
-
-const deepCopy = (obj) => {
-    return JSON.parse(JSON.stringify(obj));
-};
-
-const copy = (obj) => {
-    return Object.assign({}, obj);
-};
-
-const sort = (items, f) => {
-    items.sort((a, b) => (f(a) < f(b)) ? 1 : ((f(b) < f(a)) ? -1 : 0))
-};
 
 const run = () => {
     let allocations = allocate(example);
 
     calcMetrics(allocations);
-    
+    sortItems(allocations);
+
     allocations.map(a => ({
         name: a.participant.name,
         items: JSON.stringify(a.items.map(i => i.key)),
