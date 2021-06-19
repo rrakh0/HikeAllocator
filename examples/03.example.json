@@ -16,57 +16,57 @@
     ],
     "items": [
         {
-            "key": "Палатка",
+            "name": "Палатка",
             "weight": 3,
-            "durationDays": 3,
+            "carryDays": 3,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Топор",
+            "name": "Топор",
             "weight": 2,
-            "durationDays": 3,
+            "carryDays": 3,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Сахар",
+            "name": "Сахар",
             "weight": 1.2,
-            "durationDays": 3,
+            "carryDays": 3,
             "consumptionType": "Linear"
         },
         {
-            "key": "Еда 1-1",
+            "name": "Еда 1-1",
             "weight": 1,
-            "durationDays": 0,
+            "carryDays": 0,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Еда 1-2",
+            "name": "Еда 1-2",
             "weight": 1.5,
-            "durationDays": 1,
+            "carryDays": 1,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Еда 2-1",
+            "name": "Еда 2-1",
             "weight": 1,
-            "durationDays": 1,
+            "carryDays": 1,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Еда 2-2",
+            "name": "Еда 2-2",
             "weight": 1.5,
-            "durationDays": 2,
+            "carryDays": 2,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Еда 3-1",
+            "name": "Еда 3-1",
             "weight": 1,
-            "durationDays": 2,
+            "carryDays": 2,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Еда 3-2",
+            "name": "Еда 3-2",
             "weight": 1.5,
-            "durationDays": 3,
+            "carryDays": 3,
             "consumptionType": "Fixed"
         }
     ]

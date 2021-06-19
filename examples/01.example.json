@@ -8,9 +8,9 @@
     ],
     "items": [
         {
-            "key": "Палатка",
+            "name": "Палатка",
             "weight": 3,
-            "durationDays": 1,
+            "carryDays": 1,
             "consumptionType": "Fixed"
         }
     ]

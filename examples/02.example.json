@@ -12,45 +12,54 @@
     ],
     "items": [
         {
-            "key": "Палатка",
+            "name": "Палатка",
+            "type": "Equipment",
             "weight": 3,
-            "durationDays": 2,
+            "carryDays": 2,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Топор",
+            "name": "Топор",
+            "type": "Equipment",
             "weight": 2,
-            "durationDays": 2,
+            "carryDays": 2,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Сахар",
+            "name": "Сахар",
+            "type": "Food",
             "weight": 0.8,
-            "durationDays": 2,
+            "carryDays": 2,
             "consumptionType": "Linear"
         },
         {
-            "key": "Еда 1-1",
+            "name": "Завтрак",
+            "type": "Food",
             "weight": 1,
-            "durationDays": 0,
-            "consumptionType": "Fixed"
+            "carryDays": 0,
+            "consumptionType": "Fixed",
+            "consumptionDay": 1
         },
         {
-            "key": "Еда 1-2",
+            "name": "Ужин",
+            "type": "Food",
             "weight": 1.5,
-            "durationDays": 1,
+            "carryDays": 1,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Еда 2-1",
+            "name": "Завтрак",
+            "type": "Food",
             "weight": 1,
-            "durationDays": 1,
-            "consumptionType": "Fixed"
+            "carryDays": 1,
+            "consumptionType": "Fixed",
+            "consumptionDay": 2
         },
         {
-            "key": "Еда 2-2",
+            "name": "Ужин",
+            "type": "Food",
             "weight": 1.5,
-            "durationDays": 2,
+            "carryDays": 2,
             "consumptionType": "Fixed"
         }
     ]

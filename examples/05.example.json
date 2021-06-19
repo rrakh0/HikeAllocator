@@ -40,346 +40,355 @@
     ],
     "items": [
         {
-            "key": "Палатка 1",
+            "name": "Палатка",
             "type": "Equipment",
             "weight": 2,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Палатка 2",
+            "name": "Палатка",
             "type": "Equipment",
             "weight": 2.5,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Палатка 3",
+            "name": "Палатка",
             "type": "Equipment",
             "weight": 2.5,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Палатка 4",
+            "name": "Палатка",
             "type": "Equipment",
             "weight": 3,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Котлы",
+            "name": "Котлы",
             "type": "Equipment",
             "weight": 3,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Топор",
+            "name": "Топор",
             "type": "Equipment",
             "weight": 1,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Пила",
+            "name": "Пила",
             "type": "Equipment",
             "weight": 0.3,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Рем. набор",
+            "name": "Рем. набор",
             "type": "Equipment",
             "weight": 1,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Аптечка",
+            "name": "Аптечка",
             "type": "Equipment",
             "weight": 1,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Газ (х2)",
-            "type": "Equipment",
-            "weight": 0.8,
-            "durationDays": 5,
-            "consumptionType": "Fixed"
-        },
-        {
-            "key": "Газ (х2)",
+            "name": "Газ (х2)",
             "type": "Equipment",
             "weight": 0.8,
-            "durationDays": 5,
+            "carryDays": 5,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Газ (х2)",
+            "name": "Газ (х2)",
             "type": "Equipment",
             "weight": 0.8,
-            "durationDays": 5,
+            "carryDays": 5,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Завтрак 2",
+            "name": "Газ (х2)",
+            "type": "Equipment",
+            "weight": 0.8,
+            "carryDays": 5,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Завтрак",
             "type": "Food",
             "weight": 2,
-            "durationDays": 1,
-            "consumptionType": "Fixed"
+            "carryDays": 1,
+            "consumptionType": "Fixed",
+            "consumptionDay": 2
         },
         {
-            "key": "Завтрак 3",
+            "name": "Завтрак",
             "type": "Food",
             "weight": 2,
-            "durationDays": 2,
-            "consumptionType": "Fixed"
+            "carryDays": 2,
+            "consumptionType": "Fixed",
+            "consumptionDay": 3
         },
         {
-            "key": "Завтрак 4",
+            "name": "Завтрак",
             "type": "Food",
             "weight": 2,
-            "durationDays": 3,
-            "consumptionType": "Fixed"
+            "carryDays": 3,
+            "consumptionType": "Fixed",
+            "consumptionDay": 4
         },
         {
-            "key": "Завтрак 5",
+            "name": "Завтрак",
             "type": "Food",
             "weight": 2,
-            "durationDays": 4,
-            "consumptionType": "Fixed"
+            "carryDays": 4,
+            "consumptionType": "Fixed",
+            "consumptionDay": 5
         },
         {
-            "key": "Завтрак 6",
+            "name": "Завтрак",
             "type": "Food",
             "weight": 2,
-            "durationDays": 5,
-            "consumptionType": "Fixed"
+            "carryDays": 5,
+            "consumptionType": "Fixed",
+            "consumptionDay": 6
         },
         {
-            "key": "Завтрак 7",
+            "name": "Завтрак",
             "type": "Food",
             "weight": 2,
-            "durationDays": 6,
-            "consumptionType": "Fixed"
+            "carryDays": 6,
+            "consumptionType": "Fixed",
+            "consumptionDay": 7
         },
         {
-            "key": "Завтрак 8",
+            "name": "Завтрак",
             "type": "Food",
             "weight": 2,
-            "durationDays": 7,
-            "consumptionType": "Fixed"
+            "carryDays": 7,
+            "consumptionType": "Fixed",
+            "consumptionDay": 8
         },
         {
-            "key": "Завтрак 9",
+            "name": "Завтрак",
             "type": "Food",
             "weight": 2,
-            "durationDays": 8,
-            "consumptionType": "Fixed"
+            "carryDays": 8,
+            "consumptionType": "Fixed",
+            "consumptionDay": 9
         },
         {
-            "key": "Завтрак 10",
+            "name": "Завтрак",
             "type": "Food",
             "weight": 2,
-            "durationDays": 9,
-            "consumptionType": "Fixed"
+            "carryDays": 9,
+            "consumptionType": "Fixed",
+            "consumptionDay": 10
         },
         {
-            "key": "Обед 2",
+            "name": "Обед",
             "type": "Food",
             "weight": 1.5,
-            "durationDays": 2,
+            "carryDays": 2,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Обед 4",
+            "name": "Обед",
             "type": "Food",
             "weight": 1.5,
-            "durationDays": 4,
+            "carryDays": 4,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Обед 6",
+            "name": "Обед",
             "type": "Food",
             "weight": 1.5,
-            "durationDays": 6,
+            "carryDays": 6,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Обед 8",
+            "name": "Обед",
             "type": "Food",
             "weight": 1.5,
-            "durationDays": 8,
+            "carryDays": 8,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Перекус 1",
+            "name": "Перекус",
             "type": "Food",
             "weight": 1,
-            "durationDays": 1,
+            "carryDays": 1,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Перекус 2",
+            "name": "Перекус",
             "type": "Food",
             "weight": 1,
-            "durationDays": 2,
+            "carryDays": 2,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Перекус 3",
+            "name": "Перекус",
             "type": "Food",
             "weight": 1,
-            "durationDays": 3,
+            "carryDays": 3,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Перекус 4",
+            "name": "Перекус",
             "type": "Food",
             "weight": 1,
-            "durationDays": 4,
+            "carryDays": 4,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Перекус 5",
+            "name": "Перекус",
             "type": "Food",
             "weight": 1,
-            "durationDays": 5,
+            "carryDays": 5,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Перекус 6",
+            "name": "Перекус",
             "type": "Food",
             "weight": 1,
-            "durationDays": 6,
+            "carryDays": 6,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Перекус 7",
+            "name": "Перекус",
             "type": "Food",
             "weight": 1,
-            "durationDays": 7,
+            "carryDays": 7,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Перекус 8",
+            "name": "Перекус",
             "type": "Food",
             "weight": 1,
-            "durationDays": 8,
+            "carryDays": 8,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Перекус 9",
+            "name": "Перекус",
             "type": "Food",
             "weight": 1,
-            "durationDays": 9,
+            "carryDays": 9,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Перекус 10",
+            "name": "Перекус",
             "type": "Food",
             "weight": 1,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Ужин 1",
+            "name": "Ужин",
             "type": "Food",
             "weight": 1.7,
-            "durationDays": 1,
+            "carryDays": 1,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Ужин 2",
+            "name": "Ужин",
             "type": "Food",
             "weight": 1.7,
-            "durationDays": 2,
+            "carryDays": 2,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Ужин 3",
+            "name": "Ужин",
             "type": "Food",
             "weight": 1.7,
-            "durationDays": 3,
+            "carryDays": 3,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Ужин 4",
+            "name": "Ужин",
             "type": "Food",
             "weight": 1.7,
-            "durationDays": 4,
+            "carryDays": 4,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Ужин 5",
+            "name": "Ужин",
             "type": "Food",
             "weight": 1.7,
-            "durationDays": 5,
+            "carryDays": 5,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Ужин 6",
+            "name": "Ужин",
             "type": "Food",
             "weight": 1.7,
-            "durationDays": 6,
+            "carryDays": 6,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Ужин 7",
+            "name": "Ужин",
             "type": "Food",
             "weight": 1.7,
-            "durationDays": 7,
+            "carryDays": 7,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Ужин 8",
+            "name": "Ужин",
             "type": "Food",
             "weight": 1.7,
-            "durationDays": 8,
+            "carryDays": 8,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Ужин 9",
+            "name": "Ужин",
             "type": "Food",
             "weight": 1.7,
-            "durationDays": 9,
+            "carryDays": 9,
             "consumptionType": "Fixed"
         },
         {
-            "key": "Масло",
+            "name": "Масло",
             "type": "Food",
             "weight": 0.5,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Linear"
         },
         {
-            "key": "Сахар",
+            "name": "Сахар",
             "type": "Food",
             "weight": 2.5,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Linear"
         },
         {
-            "key": "Сыр",
+            "name": "Сыр",
             "type": "Food",
             "weight": 2,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Linear"
         },
         {
-            "key": "Балык",
+            "name": "Балык",
             "type": "Food",
             "weight": 2,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Linear"
         },
         {
-            "key": "Соль",
+            "name": "Соль",
             "type": "Food",
             "weight": 0.5,
-            "durationDays": 10,
+            "carryDays": 10,
             "consumptionType": "Linear"
         }
     ]
