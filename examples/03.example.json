@@ -3,68 +3,80 @@
     "participants": [
         {
             "name": "Участник #1",
-            "carryingCoefficient": 1
+            "carryingCoefficient": 1,
+            "fixedItems": []
         },
         {
             "name": "Участник #2",
-            "carryingCoefficient": 1
+            "carryingCoefficient": 1,
+            "fixedItems": []
         },
         {
             "name": "Участник #3",
-            "carryingCoefficient": 1
+            "carryingCoefficient": 1,
+            "fixedItems": []
         }
     ],
     "items": [
         {
             "name": "Палатка",
+            "type": "Equipment",
             "weight": 3,
             "carryDays": 3,
             "consumptionType": "Fixed"
         },
         {
             "name": "Топор",
+            "type": "Equipment",
             "weight": 2,
             "carryDays": 3,
             "consumptionType": "Fixed"
         },
         {
             "name": "Сахар",
+            "type": "Food",
             "weight": 1.2,
             "carryDays": 3,
             "consumptionType": "Linear"
         },
         {
-            "name": "Еда 1-1",
+            "name": "Завтрак",
+            "type": "Food",
             "weight": 1,
             "carryDays": 0,
-            "consumptionType": "Fixed"
+            "consumptionType": "FixedNextDay"
         },
         {
-            "name": "Еда 1-2",
+            "name": "Ужин",
+            "type": "Food",
             "weight": 1.5,
             "carryDays": 1,
             "consumptionType": "Fixed"
         },
         {
-            "name": "Еда 2-1",
+            "name": "Завтрак",
+            "type": "Food",
             "weight": 1,
             "carryDays": 1,
-            "consumptionType": "Fixed"
+            "consumptionType": "FixedNextDay"
         },
         {
-            "name": "Еда 2-2",
+            "name": "Ужин",
+            "type": "Food",
             "weight": 1.5,
             "carryDays": 2,
             "consumptionType": "Fixed"
         },
         {
-            "name": "Еда 3-1",
+            "name": "Завтрак",
+            "type": "Food",
             "weight": 1,
             "carryDays": 2,
-            "consumptionType": "Fixed"
+            "consumptionType": "FixedNextDay"
         },
         {
-            "name": "Еда 3-2",
+            "name": "Ужин",
+            "type": "Food",
             "weight": 1.5,
             "carryDays": 3,
             "consumptionType": "Fixed"

@@ -3,12 +3,14 @@
     "participants": [
         {
             "name": "Участник #1",
-            "carryingCoefficient": 1
+            "carryingCoefficient": 1,
+            "fixedItems": []
         }
     ],
     "items": [
         {
             "name": "Палатка",
+            "type": "Equipment",
             "weight": 3,
             "carryDays": 1,
             "consumptionType": "Fixed"

@@ -1,107 +1,404 @@
 {
-    "durationDays": 5,
+    "durationDays": 10,
     "participants": [
         {
             "name": "Участник #1",
-            "carryingCoefficient": 1
+            "carryingCoefficient": 1,
+            "fixedItems": ["Палатка 3"]
         },
         {
             "name": "Участник #2",
-            "carryingCoefficient": 1
+            "carryingCoefficient": 1,
+            "fixedItems": []
         },
         {
             "name": "Участник #3",
-            "carryingCoefficient": 1
+            "carryingCoefficient": 1,
+            "fixedItems": []
         },
         {
             "name": "Участник #4",
-            "carryingCoefficient": 0.7
+            "carryingCoefficient": 1,
+            "fixedItems": []
+        },
+        {
+            "name": "Участник #5",
+            "carryingCoefficient": 0.7,
+            "fixedItems": []
+        },
+        {
+            "name": "Участник #6",
+            "carryingCoefficient": 0.7,
+            "fixedItems": []
+        },
+        {
+            "name": "Участник #7",
+            "carryingCoefficient": 0.7,
+            "fixedItems": []
+        },
+        {
+            "name": "Участник #8",
+            "carryingCoefficient": 0.7,
+            "fixedItems": []
+        },
+        {
+            "name": "Участник #9",
+            "carryingCoefficient": 0.7,
+            "fixedItems": []
         }
     ],
     "items": [
         {
-            "name": "Палатка",
-            "weight": 3,
-            "carryDays": 5,
+            "name": "Палатка 1",
+            "type": "Equipment",
+            "weight": 2,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
-            "name": "Топор",
-            "weight": 2,
-            "carryDays": 5,
+            "name": "Палатка 2",
+            "type": "Equipment",
+            "weight": 2.5,
+            "carryDays": 10,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Палатка 3",
+            "type": "Equipment",
+            "weight": 2.5,
+            "carryDays": 10,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Палатка 4",
+            "type": "Equipment",
+            "weight": 3,
+            "carryDays": 10,
             "consumptionType": "Fixed"
         },
         {
             "name": "Котлы",
-            "weight": 4,
+            "type": "Equipment",
+            "weight": 3,
+            "carryDays": 10,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Топор",
+            "type": "Equipment",
+            "weight": 1,
+            "carryDays": 10,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Пила",
+            "type": "Equipment",
+            "weight": 0.3,
+            "carryDays": 10,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Рем. набор",
+            "type": "Equipment",
+            "weight": 1,
+            "carryDays": 10,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Аптечка",
+            "type": "Equipment",
+            "weight": 1,
+            "carryDays": 10,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Газ (х2)",
+            "type": "Equipment",
+            "weight": 0.8,
             "carryDays": 5,
             "consumptionType": "Fixed"
         },
         {
-            "name": "Сахар",
+            "name": "Газ (х2)",
+            "type": "Equipment",
+            "weight": 0.8,
+            "carryDays": 5,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Газ (х2)",
+            "type": "Equipment",
+            "weight": 0.8,
+            "carryDays": 5,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Завтрак",
+            "type": "Food",
+            "weight": 2,
+            "carryDays": 1,
+            "consumptionType": "FixedNextDay",
+            "consumptionDay": 2
+        },
+        {
+            "name": "Завтрак",
+            "type": "Food",
+            "weight": 2,
+            "carryDays": 2,
+            "consumptionType": "FixedNextDay",
+            "consumptionDay": 3
+        },
+        {
+            "name": "Завтрак",
+            "type": "Food",
+            "weight": 2,
+            "carryDays": 3,
+            "consumptionType": "FixedNextDay",
+            "consumptionDay": 4
+        },
+        {
+            "name": "Завтрак",
+            "type": "Food",
+            "weight": 2,
+            "carryDays": 4,
+            "consumptionType": "FixedNextDay",
+            "consumptionDay": 5
+        },
+        {
+            "name": "Завтрак",
+            "type": "Food",
             "weight": 2,
             "carryDays": 5,
+            "consumptionType": "FixedNextDay",
+            "consumptionDay": 6
+        },
+        {
+            "name": "Завтрак",
+            "type": "Food",
+            "weight": 2,
+            "carryDays": 6,
+            "consumptionType": "FixedNextDay",
+            "consumptionDay": 7
+        },
+        {
+            "name": "Завтрак",
+            "type": "Food",
+            "weight": 2,
+            "carryDays": 7,
+            "consumptionType": "FixedNextDay",
+            "consumptionDay": 8
+        },
+        {
+            "name": "Завтрак",
+            "type": "Food",
+            "weight": 2,
+            "carryDays": 8,
+            "consumptionType": "FixedNextDay",
+            "consumptionDay": 9
+        },
+        {
+            "name": "Завтрак",
+            "type": "Food",
+            "weight": 2,
+            "carryDays": 9,
+            "consumptionType": "FixedNextDay",
+            "consumptionDay": 10
+        },
+        {
+            "name": "Обед",
+            "type": "Food",
+            "weight": 1.5,
+            "carryDays": 2,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Обед",
+            "type": "Food",
+            "weight": 1.5,
+            "carryDays": 4,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Обед",
+            "type": "Food",
+            "weight": 1.5,
+            "carryDays": 6,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Обед",
+            "type": "Food",
+            "weight": 1.5,
+            "carryDays": 8,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Перекус",
+            "type": "Food",
+            "weight": 1,
+            "carryDays": 1,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Перекус",
+            "type": "Food",
+            "weight": 1,
+            "carryDays": 2,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Перекус",
+            "type": "Food",
+            "weight": 1,
+            "carryDays": 3,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Перекус",
+            "type": "Food",
+            "weight": 1,
+            "carryDays": 4,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Перекус",
+            "type": "Food",
+            "weight": 1,
+            "carryDays": 5,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Перекус",
+            "type": "Food",
+            "weight": 1,
+            "carryDays": 6,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Перекус",
+            "type": "Food",
+            "weight": 1,
+            "carryDays": 7,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Перекус",
+            "type": "Food",
+            "weight": 1,
+            "carryDays": 8,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Перекус",
+            "type": "Food",
+            "weight": 1,
+            "carryDays": 9,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Перекус",
+            "type": "Food",
+            "weight": 1,
+            "carryDays": 10,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Ужин",
+            "type": "Food",
+            "weight": 1.7,
+            "carryDays": 1,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Ужин",
+            "type": "Food",
+            "weight": 1.7,
+            "carryDays": 2,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Ужин",
+            "type": "Food",
+            "weight": 1.7,
+            "carryDays": 3,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Ужин",
+            "type": "Food",
+            "weight": 1.7,
+            "carryDays": 4,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Ужин",
+            "type": "Food",
+            "weight": 1.7,
+            "carryDays": 5,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Ужин",
+            "type": "Food",
+            "weight": 1.7,
+            "carryDays": 6,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Ужин",
+            "type": "Food",
+            "weight": 1.7,
+            "carryDays": 7,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Ужин",
+            "type": "Food",
+            "weight": 1.7,
+            "carryDays": 8,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Ужин",
+            "type": "Food",
+            "weight": 1.7,
+            "carryDays": 9,
+            "consumptionType": "Fixed"
+        },
+        {
+            "name": "Масло",
+            "type": "Food",
+            "weight": 0.5,
+            "carryDays": 10,
             "consumptionType": "Linear"
         },
         {
-            "name": "Еда 1-1",
-            "weight": 1,
-            "carryDays": 0,
-            "consumptionType": "Fixed"
+            "name": "Сахар",
+            "type": "Food",
+            "weight": 2.5,
+            "carryDays": 10,
+            "consumptionType": "Linear"
         },
         {
-            "name": "Еда 1-2",
-            "weight": 1.5,
-            "carryDays": 1,
-            "consumptionType": "Fixed"
+            "name": "Сыр",
+            "type": "Food",
+            "weight": 2,
+            "carryDays": 10,
+            "consumptionType": "Linear"
         },
         {
-            "name": "Еда 2-1",
-            "weight": 1,
-            "carryDays": 1,
-            "consumptionType": "Fixed"
+            "name": "Балык",
+            "type": "Food",
+            "weight": 2,
+            "carryDays": 10,
+            "consumptionType": "Linear"
         },
         {
-            "name": "Еда 2-2",
-            "weight": 1.5,
-            "carryDays": 2,
-            "consumptionType": "Fixed"
-        },
-        {
-            "name": "Еда 3-1",
-            "weight": 1,
-            "carryDays": 2,
-            "consumptionType": "Fixed"
-        },
-        {
-            "name": "Еда 3-2",
-            "weight": 1.5,
-            "carryDays": 3,
-            "consumptionType": "Fixed"
-        },
-        {
-            "name": "Еда 4-1",
-            "weight": 1,
-            "carryDays": 3,
-            "consumptionType": "Fixed"
-        },
-        {
-            "name": "Еда 4-2",
-            "weight": 1.5,
-            "carryDays": 4,
-            "consumptionType": "Fixed"
-        },
-        {
-            "name": "Еда 5-1",
-            "weight": 1,
-            "carryDays": 4,
-            "consumptionType": "Fixed"
-        },
-        {
-            "name": "Еда 5-2",
-            "weight": 1.5,
-            "carryDays": 5,
-            "consumptionType": "Fixed"
+            "name": "Соль",
+            "type": "Food",
+            "weight": 0.5,
+            "carryDays": 10,
+            "consumptionType": "Linear"
         }
     ]
 }

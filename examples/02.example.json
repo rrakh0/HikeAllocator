@@ -3,11 +3,13 @@
     "participants": [
         {
             "name": "Участник #1",
-            "carryingCoefficient": 1
+            "carryingCoefficient": 1,
+            "fixedItems": []
         },
         {
             "name": "Участник #2",
-            "carryingCoefficient": 1
+            "carryingCoefficient": 1,
+            "fixedItems": []
         }
     ],
     "items": [
@@ -37,8 +39,7 @@
             "type": "Food",
             "weight": 1,
             "carryDays": 0,
-            "consumptionType": "Fixed",
-            "consumptionDay": 1
+            "consumptionType": "FixedNextDay"
         },
         {
             "name": "Ужин",
@@ -52,8 +53,7 @@
             "type": "Food",
             "weight": 1,
             "carryDays": 1,
-            "consumptionType": "Fixed",
-            "consumptionDay": 2
+            "consumptionType": "FixedNextDay"
         },
         {
             "name": "Ужин",
