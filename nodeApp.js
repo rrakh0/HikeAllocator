@@ -41,7 +41,7 @@ const convertToTable = (allocations, days) => {
         row.push(getItemsDisplay(a.items.filter(i => i.consumptionType == 'Linear')));
 
         for (let i = 0; i < days; i++) {
-            row.push(getItemsDisplay(a.items.filter(t => isDailyFoodItem(t) && (t.consumptionDay || t.carryDays) == (i + 1))));
+            row.push(getItemsDisplay(a.items.filter(t => isDailyFoodItem(t) && (getConsumptionDay(t)) == (i + 1))));
         }
 
         row.push(a.weight);
