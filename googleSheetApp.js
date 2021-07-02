@@ -222,7 +222,7 @@ const displayAllocations = (allocations, days) => {
 
     let row = [];
 
-    row.push(a.participant.name);
+    row.push(`${a.participant.name} (${a.participant.carryingCoefficient})`);
     row.push(getItemsDisplay(a.items.filter(i => i.type == itemType.Equipment)));
     row.push(getItemsDisplay(a.items.filter(i => i.consumptionType == consumptionType.Linear)));
 
