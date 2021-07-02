@@ -1,4 +1,5 @@
 const onEdit = (e) => {
+
     if (e.range.getA1Notation() == 'B2') {
       switch (e.value) {
         case 'Распределить': {
@@ -32,7 +33,7 @@ const onEdit = (e) => {
   
     displayAllocations(allocations, hikeData.durationDays);
   
-    Browser.msgBox('Распределение завершено. Результат на вкладке "Распределение"');
+    SpreadsheetApp.getActive().toast('Распределение завершено. Результат на вкладке "Распределение"');
   };
   
   const readHikeData = () => {
